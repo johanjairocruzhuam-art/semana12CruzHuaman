@@ -18,7 +18,7 @@ export default function CardProducto({id,category,title, stock, imageUrl,reviews
             <strong>{stock}</strong>
         </div>
     </div>
-    <section>
+    <section className="review-list">
         {reviews.map(e=><Review
             rating={e.rating}
             comment={e.comment}
